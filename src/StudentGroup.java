@@ -56,28 +56,7 @@ public class StudentGroup implements StudentArrayOperation {
 				this.students[temp++] =students[index];
 			}
 			
-			/*
-			Student s;
-			Date d1 =new Date();
-			Scanner sc=new Scanner(System.in); 
-			System.out.println("Enter Id : ");
-			int id =sc.nextInt();
-			System.out.println("Enter Full Name : ");
-			String name=sc.next();
-			System.out.println("Enter Birth Date : ");
-			String bd=sc.next();
-			System.out.println("Enter Avg Marks : ");
-			double mark=sc.nextDouble();
-			try{
-				d1 = new SimpleDateFormat("yyyy-MM-dd").parse(bd);
-				
-			}
-			catch(Exception e){
-				System.out.println("Exception");
-			}
-			s =new Student(id,name,d1,mark);
-			students[students.length] =s;
-			*/
+			
 		}
 	}
 
