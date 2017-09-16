@@ -4,6 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		/*
 		Date d1 =new Date();
 		
 		try{
@@ -21,14 +22,14 @@ public class Main {
 		s.setFullName("teja");
 		s.setBirthDate(date);
 		s.setAvgMark(100);
-		*/
+		*
 		System.out.println("id :"+s.getId());
 		System.out.println("id :"+s.getFullName());
 		System.out.println("id :"+s.getBirthDate());
 		System.out.println("id :"+s.getAvgMark());
 		
 		StudentGroup sg =new StudentGroup(10);
-		
+		*/
 	}
 
 }
